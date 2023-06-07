@@ -10,7 +10,9 @@ ul {
 a {
   text-decoration: none;
 }
-
+p {
+  color: white;
+}
 .header {
   background-color: #0020f4;
 }
@@ -47,6 +49,9 @@ a {
 }
 .text {
   text-align: center;
+}
+.contact-text {
+  color: white;
 }
 .footer {
   background-color: #0020f4;
