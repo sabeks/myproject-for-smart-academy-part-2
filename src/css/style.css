@@ -9,10 +9,9 @@ ul {
 }
 a {
   text-decoration: none;
-}
-p {
   color: white;
 }
+/* header */
 .header {
   background-color: #0020f4;
 }
@@ -21,31 +20,52 @@ p {
   height: 65px;
 }
 .navbar-li {
-  display: inline-block;
+  display: inline;
   color: white;
+  text-align: center;
 }
 .main-page {
   color: #ffffff;
   text-decoration: underline;
   display: inline-block;
+  text-align: center;
 }
-.contact {
+.contact a {
   background-color: #ffffff;
-  color: #171717;
+  color: black;
   padding: 10px 20px;
   border-radius: 10px;
+  display: inline-block;
 }
+/* main */
 .skyhouse {
   width: 1195px;
   height: 600px;
 }
-.main-text {
-  text-align: center;
-  color: black;
-}
 .photos {
   display: inline-block;
-  margin-left: 400px;
+  margin-left: 100px;
+}
+.paragraph-first {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.paragraph-second {
+  margin-left: 100px;
+  margin-top: 18px;
+}
+.paragraph-three {
+  margin-left: 100px;
+  margin-top: 18px;
+}
+.more-information {
+  background-color: #0a22f4;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-left: 790px;
+  margin-top: 58px;
+  margin-bottom: 180px;
 }
 .text {
   text-align: center;
@@ -53,6 +73,20 @@ p {
 .contact-text {
   color: white;
 }
+/* footer */
 .footer {
   background-color: #0020f4;
+}
+.footer p {
+  color: #ffffff;
+}
+.phonelogo {
+  background-color: white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+.number {
+  color: white;
 }
